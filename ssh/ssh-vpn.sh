@@ -12,21 +12,7 @@ LIGHT='\033[0;37m'
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
-#MYIP=$(wget -qO- https://ipv4.icanhazip.com);
-MYIP6=$(wget -qO- https://ipv6.icanhazip.com);
-# Link Hosting Kalian
-wisnuvpn="raw.githubusercontent.com/anzclan/scwsl/main/ssh"
 
-# Link Hosting Kalian Untuk Xray
-wisnuvpnn="raw.githubusercontent.com/anzclan/scwsl/main/xray"
-
-# Link Hosting Kalian Untuk Trojan Go
-wisnuvpnnn="raw.githubusercontent.com/anzclan/scwsl/main/trojango"
-
-# Link Hosting Kalian Untuk Stunnel5
-wisnuvpnnnn="raw.githubusercontent.com/anzclan/scwsl/main/stunnel5"
-
-wisnuvpnnnnn="raw.githubusercontent.com/anzclan/scwsl/main/update"
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
 MYIP=$(wget -qO- ipinfo.io/ip);
